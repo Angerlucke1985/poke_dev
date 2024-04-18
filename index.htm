@@ -7,12 +7,40 @@
     <title>Pokedex</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <script src="script.js" type="text/javascript" defer></script>
-    <link href="style.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" async>
 </head>
+<div class="context">
+
+</div>
+
+<div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+
 <body>
+
+    <div class="contenido">
+    <div class="loader" id="loader"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    
     <h1 class="titulo">Busca tu Pokémon aquí.</h1>
     <form action="" onsubmit="searchPokemon(event)">
-        <input type="text" name="pokemon" autocomplete="off">
+        <input type="text" name="pokemon" autocomplete="off" style="position: relative;">
     </form>
     <div data-poke-card class="poke-card">
         <div data-poke-name>Pokedex</div>
@@ -22,7 +50,16 @@
         <div data-poke-id></div>
         <div data-poke-types class="poke-types"></div>
         <div data-poke-stats class="poke-stats"></div>
+    </div><br><br>
+
+    <div class="ejemplos">
+        Acá te dejo algunos ejemplos de pokemons por si no conoces el universo Pókemon:
+        <br>Arceus, Mewtwo, Giratina, Gardevoir, Mew, Giratina, Nidoking, Noctowl,
+        Bulbasaur, Butterfree, Charizard, Beedrill, Vulpix, Paras, Machop, Arcanine...  
     </div>
+    
+</div>
+</div>
 </body>
 </html>
 
