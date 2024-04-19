@@ -6,38 +6,7 @@ const pokeId = document.querySelector('[data-poke-id]');
 const pokeTypes = document.querySelector('[data-poke-types]');
 const pokeStats = document.querySelector('[data-poke-stats]');
 
-/*Buscador interno*/
-
 //
-document.addEventListener('keyup',e => {
-    if(e.target.matches('#buscador')) {
-        document.querySelector('[data-poke-name]').forEacch(pokeName => {
-            pokeName.textContent.toLowerCase().includes(e.target.value)
-            ? pokeName.classList.remove('filtro')
-            : pokeName.classList.add('filtro');
-        })
-
-    }
-})
-
-/* https://www.youtube.com/watch?v=s4dzDhnvznE
-
-inputSearch = document.getElementById("inputSearch");
-box_search = document.getElementById("input");
-
-function buscador_interno(){
-    filter = inputSearch.value.toUpperCase();
-    li = box_search.getElementByTagName("li");
-
-    //Recorriendo elementos a filtrar mediante los "li"
-    for (i = 0; i < li.lenght; i++;){
-
-
-    }
-}
-
-*/
-
 
 const typeColors = {
     electric: '#FFEA70',

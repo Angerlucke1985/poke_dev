@@ -28,19 +28,28 @@
         </ul>
 
 <body>
-
     <div class="contenido">
-    <div class="loader" id="loader"></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="loader" id="loader"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
     
-    <h1 class="titulo">Busca tu Pokémon aquí.</h1>
+    <h1 class="titulo">🔎Busca tu Pokémon aquí.</h1>
+    <h1 class="titulo">(Están todos los pokemons que se crearon hasta la fecha)</h1>
+    
     <form action="" onsubmit="searchPokemon(event)">
-        <input type="text" name="pokemon" autocomplete="off" style="position: relative;">
+        <input id="buscar" placeholder="buscar pokemos" type="text" name="pokemon" autocomplete="off" style="position: relative;">
+        <table>
+            <thead>
+                <th></th>
+            </thead>
+            <tbody class="datos">
+            </tbody>
+        </table>
     </form>
     <div data-poke-card class="poke-card">
         <div data-poke-name>Pokedex</div>
@@ -50,7 +59,9 @@
         <div data-poke-id></div>
         <div data-poke-types class="poke-types"></div>
         <div data-poke-stats class="poke-stats"></div>
-    </div><br><br>
+    </div><br>
+
+        <br>
 
     <div class="ejemplos">
         Acá te dejo algunos ejemplos de pokemons por si no conoces el universo Pókemon:

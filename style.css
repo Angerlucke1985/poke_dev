@@ -20,7 +20,7 @@ body{
 }
 
 .context h1{
-    text-align: center;
+
     color: #fff;
     font-size: 50px;
 }
@@ -30,7 +30,7 @@ body{
     background: #5d6afa;  
     background: -webkit-linear-gradient(to left, #8f94fb, #b6c84e);  
     width: 100%;
-    height: 140vh;
+    height: 150vh;
     
    
 }
@@ -40,7 +40,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 140%;
+    height: 150%;
     overflow: hidden;
 }
 
@@ -150,16 +150,18 @@ body{
 }
 
 /*contenido*/
-.contenido {
-    padding: 50px;
+
+.ocultar {
+    display: none;
 }
+
 .loader {
     animation-duration: 3s;
     height: 60px;
     aspect-ratio: 1;
     position: relative;
-    margin-left: 700px;
-    margin-top: 350px;
+    margin: 30px auto;
+   
   }
   .loader::before,
   .loader::after {
@@ -193,12 +195,13 @@ body{
   }
 
 form {
-    width: 200px;
+    width: 270px;
     margin: 20px auto;
 }
 
 input {
-    width: 100%;
+
+    width: 93%;
     padding: 10px;
 }
 
